@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/toolbar_layout"
+    android:layout_width="match_parent"
+	android:layout_height="60dp"
+    android:padding="@dimen/view_margin_14dp">
+
+    <com.wei.music.view.MarqueeView
+        android:id="@+id/toolbar_title"
+        android:layout_width="wrap_content"
+        android:text="@string/home"
+        style="@style/marqueeview"
+        android:textSize="@dimen/toolbar_title_size"
+        android:layout_marginRight="44dp"/>
+
+	<ImageView
+		android:id="@+id/toolbar_but"
+		android:layout_width="@dimen/image_but_size"
+		android:layout_height="match_parent"
+		android:layout_gravity="right"
+        android:src="@drawable/ic_search"/>
+
+</FrameLayout>
+

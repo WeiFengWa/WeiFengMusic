@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<me.qinc.lib.edgetranslucent.EdgeTransparentView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:edge_width="60dp"
+    app:edge_position="top|bottom">
+
+    <com.wei.music.view.LrcView
+        android:id="@+id/player_lrcview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:lrcPlayDrawable="@drawable/ic_pause"
+        app:lrcTextSize="@dimen/title_text_size"
+        app:lrcNormalTextSize="@dimen/msg_text_size"/>
+
+</me.qinc.lib.edgetranslucent.EdgeTransparentView>

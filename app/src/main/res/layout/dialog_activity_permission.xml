@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+    android:background="@drawable/dialog_bg"
+    android:gravity="center_horizontal">
+    
+    <View
+        android:layout_width="80dp"
+        android:layout_height="4dp"
+        android:layout_marginTop="@dimen/view_margin_14dp"
+        android:background="@drawable/round_bg"/>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/permission"
+        android:textSize="@dimen/toolbar_title_size"
+        android:padding="@dimen/view_margin_14dp"/>
+    
+    <TextView
+        android:id="@+id/permission_one"
+        android:text="获取录音权限用于实现音频可视化：\nandroid.permission.RECORD_AUDIO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/view_margin_14dp"
+        android:paddingRight="@dimen/view_margin_14dp"
+        android:textSize="@dimen/title_text_size"/>
+    
+    <TextView
+        android:id="@+id/permission_two"
+        android:text="获取储存权限用于实现数据缓存：\nandroid.permission.READ_EXTERNAL_STORAGE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/view_margin_14dp"
+        android:paddingRight="@dimen/view_margin_14dp"
+        android:paddingTop="@dimen/view_margin_14dp"
+        android:textSize="@dimen/title_text_size"/>
+    
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:fitsSystemWindows="true">
+
+        <Button
+            android:id="@+id/permission_but"
+            android:text="@string/open_setting"
+            android:textColor="@color/but_text_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/view_margin_14dp"/>
+
+    </LinearLayout>
+    
+</LinearLayout>

@@ -1,0 +1,95 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>  
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowBackground">@color/colorPrimary</item>  
+        <item name="android:colorControlHighlight">@color/transparent</item> 
+        <item name="android:textColor">@color/colorText</item>  
+        <item name="android:colorButtonNormal">@color/but_bg_color</item>
+        <item name="android:windowTranslucentStatus">false</item>  
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:statusBarColor">@color/transparent</item>      
+        <item name="android:navigationBarColor">@color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item> 
+    </style>
+    
+    <style name="titleview">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/view_margin_14dp</item>     
+        <item name="android:textSize">@dimen/title_text_size</item>   
+        <item name="android:lines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    
+    <style name="msgview">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/view_margin_14dp</item>     
+        <item name="android:textSize">@dimen/msg_text_size</item>
+        <item name="android:textColor">@color/colorTextDark</item>
+        <item name="android:lines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    
+    <style name="marqueeview">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:freezesText">true</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    
+    <style name="left_nav_item_text_size">
+        <item name="android:textSize">@dimen/title_text_size</item>
+    </style>
+    
+    <style name="HighlightTheme" parent="@style/AppTheme">
+        <item name="android:colorControlHighlight">@color/bluedark</item>
+    </style>
+    
+    <style name="DialogActivityTheme" parent="@style/TransparentActivityTheme">
+        <item name="android:windowBackground">@color/gray_alpha</item>
+        <item name="android:colorControlHighlight">@color/bluedark</item>
+        <item name="android:windowAnimationStyle">@style/AlphaAnimation</item>
+    </style>
+    
+    <!--透明主题-->
+    <style name="TransparentActivityTheme" parent="@style/AppTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+    </style>
+    
+    <!--PlayerActivity主题-->
+    <style name="PlayerActivityTheme" parent="@style/TransparentActivityTheme">
+        <item name="android:windowAnimationStyle">@style/VerticalAnimation</item>
+    </style>
+    
+    <style name="AlphaAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/enter_alpha</item>
+        <item name="android:activityOpenExitAnimation">@anim/enter_alpha</item>
+        <item name="android:activityCloseEnterAnimation">@anim/exit_alpha</item>
+        <item name="android:activityCloseExitAnimation">@anim/exit_alpha</item>
+    </style>
+    
+    <style name="VerticalAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/bottom_in_anim</item>
+        <item name="android:activityOpenExitAnimation">@anim/bottom_in_anim</item>
+        <item name="android:activityCloseEnterAnimation">@anim/top_out_anim</item>
+        <item name="android:activityCloseExitAnimation">@anim/top_out_anim</item>
+    </style>
+    
+    <style name="HorizontalAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/right_in_anim</item>
+        <item name="android:activityOpenExitAnimation">@anim/right_in_anim</item>
+        <item name="android:activityCloseEnterAnimation">@anim/left_out_anim</item>
+        <item name="android:activityCloseExitAnimation">@anim/left_out_anim</item>
+    </style>
+    
+</resources>

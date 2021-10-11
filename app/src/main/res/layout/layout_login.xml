@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+    android:background="@drawable/dialog_bg"
+    android:gravity="right">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textSize="@dimen/toolbar_title_size"
+        android:padding="@dimen/view_margin_14dp"/>
+
+    <TextView
+        android:id="@+id/login_user_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/user"
+        android:textSize="@dimen/title_text_size"
+        android:layout_marginLeft="@dimen/view_margin_14dp"/>
+    
+	<EditText
+        android:id="@+id/login_user"
+		android:layout_width="match_parent"
+		android:layout_height="40dp"
+        android:inputType="phone"
+        android:paddingLeft="@dimen/view_margin_14dp"
+		android:layout_margin="@dimen/view_margin_14dp"
+        android:background="@drawable/round_bg"/>
+    
+    <TextView
+        android:id="@+id/login_pass_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/password"
+        android:textSize="@dimen/title_text_size"
+        android:layout_marginLeft="@dimen/view_margin_14dp"/>
+
+	<EditText
+        android:id="@+id/login_password"
+		android:layout_width="match_parent"
+		android:layout_height="40dp"
+        android:inputType="textPassword"
+        android:paddingLeft="@dimen/view_margin_14dp"
+		android:layout_margin="@dimen/view_margin_14dp"
+        android:background="@drawable/round_bg"/>
+
+	<Button
+        android:id="@+id/login_go"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/login"
+        android:textAllCaps="false"
+        android:textColor="@color/but_text_color"
+		android:layout_margin="@dimen/view_margin_14dp"/>
+
+</LinearLayout>
+

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFFFF</color>
+    <color name="colorAccent">#E9080808</color> 
+    <color name="colorAccentDark">@color/gray</color>
+    <color name="colorText">@color/colorAccent</color>
+    <color name="colorTextDark">#FF888888</color>
+    <color name="colorButtonNormal">@color/colorAccent</color>
+    <color name="colorControlHighlight">@color/colorAccentDark</color>
+    
+    <color name="round_bg_color">#FFEFEFEF</color>
+    
+    <color name="but_text_color">@color/white</color>
+    <color name="but_bg_color">@color/blue</color>
+    
+    <color name="lrc_normal_text_color">#9E9E9E</color>
+    <color name="lrc_current_text_color">#ffffffff</color>
+    <color name="lrc_timeline_text_color">#F71816</color>
+    <color name="lrc_timeline_color">#809E9E9E</color>
+    <color name="lrc_time_text_color">#809E9E9E</color>
+
+    <color name="read">#DAFF3434</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#E9080808</color>
+    <color name="gray">#FFBFBFBF</color>
+    <color name="gray_alpha">#78888888</color>
+    <color name="blue">#FF2196F3</color>
+    <color name="bluedark">#FFC9EAFB</color>
+    <color name="transparent">#00FFFFFF</color>
+    
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">微风</string>
+    <string name="home">Home</string>
+    <string name="playall">播放全部</string>
+    <string name="playlist">播放列表</string>
+    <string name="login">Login</string>
+    <string name="user">User</string>
+    <string name="password">Password</string>
+    <string name="open_setting">打开设置</string>
+    <string name="tips">Tips</string>
+    <string name="permission">权限</string>
+    <string name="search_something">搜索些什么呢</string>
+    <string name="search_history">搜索历史</string>
+    <string name="lrc_label">Listen Music</string> 
+</resources>

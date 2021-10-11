@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="toolbar_title_size">26sp</dimen>
+    <dimen name="image_but_size">26dp</dimen>
+    <dimen name="view_margin_14dp">14dp</dimen>
+    <dimen name="view_margin_2dp">2dp</dimen>
+    <dimen name="view_margin_4dp">4dp</dimen>
+    <dimen name="title_text_size">16sp</dimen>
+    <dimen name="msg_text_size">14sp</dimen>
+    <dimen name="image_icon_48dp">48dp</dimen>
+    <dimen name="image_icon_24dp">24dp</dimen>
+    <dimen name="round_18dp">18dp</dimen>
+    <dimen name="round_8dp">8dp</dimen>
+    <dimen name="banner_height">150dp</dimen>
+    
+    <dimen name="home_user_height">70dp</dimen>
+    <dimen name="home_user_margin">12dp</dimen>
+    <dimen name="home_user_image_right">2dp</dimen>
+    <dimen name="home_user_image_left">30dp</dimen>
+    <dimen name="home_user_image_view">28dp</dimen>
+    <dimen name="home_user_icon_top">-8dp</dimen>
+    <dimen name="home_user_icon_left">16dp</dimen>
+    
+    <dimen name="play_view_40dp">40dp</dimen>
+    <dimen name="play_view_top_20dp">-20dp</dimen>
+    <dimen name="play_view_left_38dp">38dp</dimen>
+    <dimen name="play_image_left_24dp">-24dp</dimen>
+    <dimen name="play_image_bottom_4dp">4dp</dimen>
+    <dimen name="play_title_margin">8dp</dimen>
+    
+    
+    <integer name="lrc_animation_duration">1000</integer>
+    <dimen name="lrc_text_size">15sp</dimen>
+    <dimen name="lrc_time_text_size">12sp</dimen>
+    <dimen name="lrc_divider_height">16dp</dimen>
+    <dimen name="lrc_timeline_height">1dp</dimen>
+    <dimen name="lrc_drawable_width">30dp</dimen>
+    <dimen name="lrc_time_width">40dp</dimen>
+</resources>

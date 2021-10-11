@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:clipChildren="false"
+    android:id="@+id/playbar_view"
+    android:transitionName="song_playbar"
+    android:layout_gravity="bottom">
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/colorPrimary"
+        android:layout_gravity="bottom"/>
+
+    <LinearLayout
+        android:id="@+id/playbar_root"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/play_view_40dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="@dimen/play_view_top_20dp"
+        android:layout_marginLeft="@dimen/play_view_left_38dp"
+        android:layout_marginRight="@dimen/view_margin_14dp"
+        android:background="@drawable/playview_bg"
+        android:layout_gravity="bottom">
+
+        <ImageView
+            android:id="@+id/playbar_icon"
+            android:padding="@dimen/view_margin_2dp"
+            android:background="@drawable/circle_bg"
+            android:layout_width="@dimen/image_icon_48dp"
+            android:layout_height="@dimen/image_icon_48dp"
+            android:layout_marginLeft="@dimen/play_image_left_24dp"
+            android:layout_marginBottom="@dimen/play_image_bottom_4dp"/>
+
+        <com.wei.music.view.MarqueeView
+            android:id="@+id/playbar_title"
+            android:layout_width="match_parent"
+            android:text="@string/app_name"
+            android:layout_marginLeft="@dimen/play_title_margin"
+            android:layout_marginRight="@dimen/play_title_margin"
+            android:layout_weight="1.0"
+            style="@style/marqueeview"/>
+
+        <ImageView
+            android:id="@+id/playbar_pause"
+            android:layout_height="match_parent"
+            android:layout_width="@dimen/image_but_size"
+            android:src="@drawable/ic_pause"
+            android:layout_marginRight="@dimen/view_margin_14dp"/>
+
+        <ImageView
+            android:id="@+id/playbar_list"
+            android:layout_height="match_parent"
+            android:layout_width="@dimen/image_but_size"
+            android:src="@drawable/ic_playlist"
+            android:layout_marginRight="@dimen/view_margin_14dp"/>
+
+    </LinearLayout>
+
+</FrameLayout>
+
