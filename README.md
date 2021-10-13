@@ -1,6 +1,6 @@
 #  WeiFengMusic
 
-网易云音乐 Node.js API service
+基于 MediaBrowserrService
 
 <p>
 <a href="https://www.npmjs.com/package/NeteaseCloudMusicApi"><img src="https://img.shields.io/npm/v/NeteaseCloudMusicApi.svg" alt="Version"></a>
