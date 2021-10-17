@@ -1,6 +1,6 @@
 #  WeiFengMusic
 
-基于 MediaBrowserrService
+基于 MediaBrowserService
 
 <p>
 
